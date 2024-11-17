@@ -35,7 +35,7 @@
 </html>
 
 css
-styles.css
+styles
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
