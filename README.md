@@ -33,3 +33,70 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+css
+styles.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #ff6347;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+.hidden {
+    display: none;
+}
+
+#surpriseMessage {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ff6347;
+}
